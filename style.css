@@ -1,0 +1,60 @@
+/* common styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+p{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+button{
+    border-radius: 8px;
+    background: #e55473;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    padding: 15px 20px;
+}
+/* header section */
+header {
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .banner-text h1{
+    color: #272727;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;  
+}
+
+.banner .banner-text *{
+    margin-bottom: 30px;
+    max-width: 525px;
+}
+
+.banner .banner-img img{
+    width: 100%;
+    vertical-align: middle;
+}
